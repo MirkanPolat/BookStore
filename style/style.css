@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 80px;
+    background-color: rgb(97, 97, 189);
+    display: flex;
+}
+header h1{
+    padding-left: 20px;
+}
+main{
+    min-height: calc(100vh - 80px);
+    background-color: rgb(104, 56, 149);
+    
+}
+.img-divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myBook{
+    height: 200px;
+    border-radius: 17px;
+  
+
+}
+.books-shield{
+    width: 450px;
+    height: 645px;
+    border-radius: 17px;
+    border: solid;
+    background-color: rgb(137, 124, 221);
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.books-customize{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding-top: 22px;
+}
+.prices{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.all-comments{
+    gap: 100px;
+    overflow-y: auto;
+    max-height: 150px;
+}
+.heart-img{
+    width: 40px;
+}
