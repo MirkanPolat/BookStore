@@ -58,3 +58,24 @@ main{
 .heart-img{
     width: 40px;
 }
+.btn{
+    background-color: rgb(117, 80, 151);
+    cursor: pointer;
+    border-radius: 17px;
+}
+.btn-row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.btn:hover{
+    background-color: brown;
+}
+.input{
+    background-color: rgb(117, 80, 151);
+    flex: 1;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+}
