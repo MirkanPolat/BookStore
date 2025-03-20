@@ -13,16 +13,6 @@ function renderBooksLibrary (){
    } 
 }
 
-function renderCommentsTemplate(i,j){
-    return /*html*/`
-    <table>
-        <tr>
-            <td>${books[i].comments[j].name}</td>
-            <td>${books[i].comments[j].comment}</td>
-        </tr>
-    </table>
-    `
-}
 
 function addComment(i){
     let inputField = document.getElementById(`comment-input${i}`).value

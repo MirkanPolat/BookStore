@@ -7,8 +7,10 @@ header{
     background-color: rgb(97, 97, 189);
     display: flex;
 }
-header h1{
+h1{
     padding-left: 20px;
+    display: flex;
+    justify-content: center;
 }
 main{
     min-height: calc(100vh - 80px);
@@ -28,12 +30,14 @@ main{
 }
 .books-shield{
     width: 450px;
-    height: 645px;
+    min-height: 645px;
     border-radius: 17px;
     border: solid;
     background-color: rgb(137, 124, 221);
     margin-left: 17px;
     margin-right: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .books-customize{
     display: flex;
@@ -46,14 +50,27 @@ main{
 .prices{
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
+    margin-top: 10px;
 }
 .all-comments{
     gap: 100px;
     overflow-y: auto;
-    max-height: 150px;
+    height: 140px;
+}
+.all-comments::-webkit-scrollbar {
+    width: 20px; /* Breite des Scrollbalkens */
+}
+.all-comments::-webkit-scrollbar-thumb {
+    background: rgb(48, 52, 92); /* Farbe des beweglichen Balkens */
+    border-radius: 10px;
+}
+
+.all-comments::-webkit-scrollbar-track {
+    background: rgb(104, 101, 171); /* Hintergrund des Tracks */
+    border-radius: 10px;
 }
 .heart-img{
     width: 40px;
@@ -76,6 +93,10 @@ main{
     flex: 1;
 }
 .table{
+    height: 100px;
+}
+.likes-counter{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
